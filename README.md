@@ -1,18 +1,19 @@
 # What's Spire.PDF MCP Server ?
 
-Spire.PDF MCP Server is a Model Context Protocol (MCP) server that allows you to create, read, edit, and convert PDF documents directly through your AI agent—without relying on Adobe Acrobat or other PDF software.  
-It provides a wide range of PDF manipulation capabilities, including merging, splitting, text replacement, form operations, encryption, watermarking, and format conversion.
+Spire.PDF MCP Server is a Model Context Protocol (MCP) server that allows you to create, [read](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Document-Operation/python-read-pdf.html), edit, and [convert PDF documents](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-Images-JPG-PNG-BMP.html) directly through your AI agent — without relying on Adobe Acrobat or other PDF software.  
+
+It provides a wide range of PDF manipulation capabilities, including [merging](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Document-Operation/Python-Merge-PDF-Documents.html), splitting, [text replacement](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Text/Python-Find-and-Replace-Text-in-PDF.html), [form operations](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Form-Field/Python-Create-or-Fill-in-a-Form-in-PDF.html), watermarking, and format conversion.
 
 ## Key Features
 
-- Create PDF documents from scratch
+- [Create PDF documents from scratch](https://www.e-iceblue.com/en/pdf/python-create-pdf.html)
 - Modify existing PDF files (replace text, add watermark, compress, etc.)
-- Merge and split PDFs
-- Delete or expand bookmarks
-- Remove attachments from PDF files
-- Flatten form fields and extract form values
-- Encrypt and decrypt documents
-- Convert PDF to multiple formats (Word, Excel, HTML, images, PDF/A, PDF/X, and more)
+- Convert [PDF to Word](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-Word-DOC-or-DOCX.html), [PDF to Excel](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-Excel.html), [PDF to HTML](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-HTML.html), and more)
+- [Merge](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Document-Operation/Python-Merge-PDF-Documents.html) and split PDF files
+- [Encrypt and decrypt PDF documents](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Security/Python-Protect-or-Unprotect-PDF-Documents.html)
+- [Flatten form fields](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Form-Field/Python-Flatten-Forms-in-PDF.html) and extract form values
+- Delete or expand PDF bookmarks
+- [Remove attachments from PDF files](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Attachment/Python-Remove-Attachments-from-a-PDF-Document.html)
 
 ## Quick Start
 
@@ -93,45 +94,44 @@ For other environments:
 
 The server provides **15+ tools** organized into 5 categories:
 
-### Document Operations
+### Document Operations (10 tools)
 
-* **create\_pdfdocument**: Create new PDF documents
-* **convert\_pdfdocument**: Convert PDF to other formats (Word, Excel, HTML, images, PDF/A, PDF/X, etc.)
-* **extract\_text**: Extract text from PDF pages
-* **merge\_pdfs**: Merge multiple PDFs into one
-* **add\_text\_watermark**: Insert text watermarks
-* **compress\_document**: Reduce PDF file size
-* **split\_document**: Split a PDF into multiple files
-* **encrypt\_document**: Apply password protection
-* **decrypt\_document**: Remove password protection
-* **replace\_all\_text**: Replace all matching text in a PDF
+* **create_pdfducoment**: Create new PDF documents
+* **convert_pdfdocument**: Convert PDF to other formats (Word, Excel, HTML, images, PDF/A, etc.)
+* **extract_text**: Extract text from PDF pages
+* **merge_pdfs**: Merge multiple PDFs into one
+* **add_text_watermark**: Insert text watermarks into PDF
+* **compress_document**: Reduce PDF file size
+* **split_document**: Split a PDF into multiple files
+* **encrypt_document**: Apply password protection to PDFs
+* **decrypt_document**: Remove password protection
+* **replace_all_text**: Replace all matching text in a PDF
 
-### Bookmarks Operations
+### Bookmarks Operations (2 tools)
 
-* **delete\_all\_bookmarks**: Remove all bookmarks from a PDF
-* **expand\_bookmarks**: Expand bookmark tree
+* **delete_all_bookmarks**: Remove all bookmarks from a PDF
+* **expand_bookmarks**: Expand bookmark tree
 
-### Forms Operations
+### Forms Operations (2 tools)
 
-* **flatten\_formfield**: Flatten form fields
-* **get\_forms\_values**: Extract form data
+* **flatten_formfield**: Flatten form fields in PDF
+* **get_forms_values**: Extract values form PDF forms
 
-### Attachments Operations
+### Attachments Operations (1 tool)
 
-* **delete\_all\_attachments**: Remove all attachments from a PDF
+* **delete_all_attachments**: Remove all attachments from a PDF
 
 ## Supported Conversion Formats
 
-* **DOC/DOCX**: Microsoft Word
-* **XLSX**: Microsoft Excel
+* [**DOC/DOCX**](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-Word-DOC-or-DOCX.html): Microsoft Word
+* [**XLS/XLSX**](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-Excel.html): Microsoft Excel
 * **PPTX**: Microsoft PowerPoint
-* **HTML**: HyperText Markup Language
+* [**HTML**](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-HTML.html): HyperText Markup Language
 * **SVG**: Scalable Vector Graphics
-* **Image formats**: PNG, JPG, BMP, etc.
-* **PDF/A (1a, 1b, 2a, 2b, 3a, 3b)**: Archival PDF
+* [**Image formats**](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-Images-JPG-PNG-BMP.html): PNG, JPG, BMP, etc.
+* [**PDF/A (1a, 1b, 2a, 2b, 3a, 3b)](https://www.e-iceblue.com/Tutorials/Python/Spire.PDF-for-Python/Program-Guide/Conversion/Python-Convert-PDF-to-PDF/A-and-Vice-Versa.html)**: Archival PDF
 * **PDF/X-1a:2001**: Printing industry standard
-* **OFD**: Open Fixed-layout Document
-* **XPS, PCL, PostScript, Gray PDF, Linearized PDF**
+* **XPS, PCL, Markdown, Gray PDF, Linearized PDF**
 
 ## Development
 
@@ -194,6 +194,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Version History
 
-* **v1.0.0**: Initial stable release with complete PDF manipulation capabilities
-* Full conversion support to multiple formats
-* Comprehensive error handling
+- **v1.0.0**: Initial stable release with tools
+- Complete pdf document manipulation capabilities
+- Comprehensive error handling
+- Full format conversion support
